@@ -1,6 +1,6 @@
 # DevOps Learning Path
 
-A comprehensive, hands-on learning resource designed to take you from DevOps beginner to practitioner. This structured curriculum covers essential DevOps principles, tools, and practices through theoretical knowledge, practical examples, and real-world case studies.
+A comprehensive, hands-on learning resource designed to take you from DevOps beginner to practitioner. This structured curriculum covers essential DevOps principles, tools, and practices through theoretical knowledge, practical examples, and real-world case studies. Master the complete DevOps toolchain from version control to production monitoring through 7 progressive modules.
 
 ## 📋 Table of Contents
 
@@ -20,11 +20,30 @@ A comprehensive, hands-on learning resource designed to take you from DevOps beg
 
 This DevOps learning repository provides a structured approach to understanding and implementing DevOps practices. The curriculum is organized into three progressive levels:
 
-1. **DevOps for Beginners** - Foundational concepts and core tools
-2. **Intermediate DevOps** - Advanced practices and specialized tools
-3. **Advanced DevOps** - Enterprise-level implementations and leadership
+1. **DevOps for Beginners** - Complete foundational curriculum with 7 comprehensive modules
+2. **Intermediate DevOps** - Advanced practices and specialized tools (coming soon)
+3. **Advanced DevOps** - Enterprise-level implementations and leadership (coming soon)
 
-The course emphasizes practical application through the **ExampleCorp case study**, a fictional e-commerce company undergoing DevOps transformation.
+The course emphasizes practical application through the **ExampleCorp case study**, a fictional e-commerce company undergoing complete DevOps transformation.
+
+### What Makes This Course Unique
+
+🔄 **Complete Toolchain Coverage**: From Git to monitoring, covering the entire DevOps lifecycle  
+📚 **Progressive Learning**: Each module builds upon previous concepts with hands-on exercises  
+🏢 **Real-World Case Study**: Follow ExampleCorp's transformation journey throughout all modules  
+⚡ **Practical Implementation**: Build actual pipelines, not just theoretical knowledge  
+🔧 **Industry-Standard Tools**: Learn the most widely-used DevOps tools in the industry  
+📊 **Measurable Outcomes**: Clear learning objectives and practical deliverables  
+
+### Course Completion Path
+
+**Beginner to Practitioner Journey (42 Lessons)**
+- **Weeks 1-2**: DevOps foundations and Git mastery
+- **Weeks 3-4**: CI/CD with Jenkins implementation  
+- **Weeks 5-6**: Infrastructure as Code with Terraform
+- **Weeks 7-8**: Configuration management with Ansible
+- **Weeks 9-10**: Containerization with Docker
+- **Weeks 11-12**: Complete pipeline and monitoring implementation
 
 ## 🗺️ Learning Path Structure
 
@@ -34,7 +53,10 @@ DevOps Learning Path/
 │   ├── Module 1: Introduction to DevOps
 │   ├── Module 2: Version Control with Git
 │   ├── Module 3: Continuous Integration with Jenkins
-│   └── Module 4: Infrastructure as Code with Terraform
+│   ├── Module 4: Infrastructure as Code with Terraform
+│   ├── Module 5: Configuration Management with Ansible
+│   ├── Module 6: Containerization with Docker
+│   └── Module 7: Continuous Deployment and Monitoring
 ├── 2. Intermediate DevOps/
 │   └── [Advanced topics - coming soon]
 └── 3. Advanced DevOps/
@@ -171,6 +193,87 @@ DevOps Learning Path/
   - Module creation and reuse
   - Best practices for organization
 
+### Module 5: Configuration Management with Ansible
+**Server Configuration and Application Deployment**
+
+- **Lesson 1**: [Configuration Management](./1.%20DevOps%20for%20Beginners/Module%205.%20Configuration%20Management%20with%20Ansible/1.%20Configuration%20Management.md)
+  - CM principles and automation
+  - Idempotency and desired state
+
+- **Lesson 2**: [Ansible Architecture](./1.%20DevOps%20for%20Beginners/Module%205.%20Configuration%20Management%20with%20Ansible/2.%20Ansible%20Architecture.md)
+  - Ansible components and workflow
+  - Agentless architecture benefits
+
+- **Lesson 3**: [Configuring Ansible](./1.%20DevOps%20for%20Beginners/Module%205.%20Configuration%20Management%20with%20Ansible/3.%20Configuring%20Ansible.md)
+  - Installation and basic setup
+  - Inventory and host management
+
+- **Lesson 4**: [Writing Ansible Playbooks](./1.%20DevOps%20for%20Beginners/Module%205.%20Configuration%20Management%20with%20Ansible/4.%20Writing%20Ansible%20Playbook.md)
+  - YAML syntax and playbook structure
+  - Tasks, handlers, and variables
+
+- **Lesson 5**: [Managing Servers with Ansible](./1.%20DevOps%20for%20Beginners/Module%205.%20Configuration%20Management%20with%20Ansible/5.%20Managing%20Servers%20with%20Ansible.md)
+  - Server provisioning and configuration
+  - Application deployment automation
+
+- **Lesson 6**: [Ansible Roles](./1.%20DevOps%20for%20Beginners/Module%205.%20Configuration%20Management%20with%20Ansible/6.%20Ansible%20Roles.md)
+  - Role structure and organization
+  - Reusable configuration patterns
+
+### Module 6: Containerization with Docker
+**Application Packaging and Deployment**
+
+- **Lesson 1**: [Introduction to Containerization and Docker](./1.%20DevOps%20for%20Beginners/Module%206.%20Containerization%20with%20Docker/1.%20Introduction%20to%20Containerization%20and%20Docker.md)
+  - Container concepts and benefits
+  - Docker architecture and ecosystem
+
+- **Lesson 2**: [Installing and Configuring Docker](./1.%20DevOps%20for%20Beginners/Module%206.%20Containerization%20with%20Docker/2.%20Installing%20and%20Configuring%20Docker.md)
+  - Docker installation across platforms
+  - Basic configuration and setup
+
+- **Lesson 3**: [Understanding Docker Images and Containers](./1.%20DevOps%20for%20Beginners/Module%206.%20Containerization%20with%20Docker/3.%20Understanding%20Docker%20Images%20and%20Containers.md)
+  - Image layers and container lifecycle
+  - Registry and image management
+
+- **Lesson 4**: [Writing Dockerfiles](./1.%20DevOps%20for%20Beginners/Module%206.%20Containerization%20with%20Docker/4.%20Writing%20Dockerfile.md)
+  - Dockerfile syntax and best practices
+  - Multi-stage builds and optimization
+
+- **Lesson 5**: [Building and Running Docker Images](./1.%20DevOps%20for%20Beginners/Module%206.%20Containerization%20with%20Docker/5.%20Building%20and%20Running%20Docker%20Images.md)
+  - Build process and image tagging
+  - Container runtime and networking
+
+- **Lesson 6**: [Docker Compose](./1.%20DevOps%20for%20Beginners/Module%206.%20Containerization%20with%20Docker/6.%20Docker%20Compose.md)
+  - Multi-container applications
+  - Service orchestration and dependencies
+
+### Module 7: Continuous Deployment and Continuous Monitoring
+**Complete DevOps Pipeline Implementation**
+
+- **Lesson 1**: [Introduction to Continuous Deployment](./1.%20DevOps%20for%20Beginners/Module%207.%20Continuous%20Deployment%20and%20Continuous%20Monitoring/1.%20Introduction%20to%20Continuous%20Deployment.md)
+  - CD principles and benefits
+  - CD vs. Continuous Delivery
+
+- **Lesson 2**: [CD Pipeline](./1.%20DevOps%20for%20Beginners/Module%207.%20Continuous%20Deployment%20and%20Continuous%20Monitoring/2.%20CD%20Pipeline.md)
+  - Pipeline design and implementation
+  - Automated testing and deployment
+
+- **Lesson 3**: [Monitoring and Logging](./1.%20DevOps%20for%20Beginners/Module%207.%20Continuous%20Deployment%20and%20Continuous%20Monitoring/3.%20Monitoring%20and%20Logging.md)
+  - Monitoring strategies and metrics
+  - Log management and analysis
+
+- **Lesson 4**: [Prometheus and Grafana](./1.%20DevOps%20for%20Beginners/Module%207.%20Continuous%20Deployment%20and%20Continuous%20Monitoring/4.%20Prometheus%20and%20Grafana.md)
+  - Metrics collection and visualization
+  - Alerting and dashboard creation
+
+- **Lesson 5**: [Centralized Logging](./1.%20DevOps%20for%20Beginners/Module%207.%20Continuous%20Deployment%20and%20Continuous%20Monitoring/5.%20Centralized%20Logging.md)
+  - ELK stack implementation
+  - Log aggregation and search
+
+- **Lesson 6**: [Full DevOps Pipeline](./1.%20DevOps%20for%20Beginners/Module%207.%20Continuous%20Deployment%20and%20Continuous%20Monitoring/6.%20Full%20DevOps%20Pipeline.md)
+  - Complete pipeline integration
+  - ExampleCorp implementation case study
+
 ## 🏢 Case Study: ExampleCorp
 
 Throughout the course, we follow **ExampleCorp**, a fictional e-commerce company, as they transform from traditional IT practices to a modern DevOps approach. This case study provides:
@@ -201,40 +304,80 @@ Throughout the course, we follow **ExampleCorp**, a fictional e-commerce company
 
 ### Core DevOps Tools Covered
 - **Version Control**: Git, GitHub/GitLab
-- **Continuous Integration**: Jenkins
-- **Infrastructure as Code**: Terraform
-- **Configuration Management**: Ansible (referenced)
-- **Monitoring**: Prometheus, Grafana (referenced)
-- **Containerization**: Docker (referenced)
+- **Continuous Integration**: Jenkins, Pipeline as Code
+- **Infrastructure as Code**: Terraform, HCL configuration
+- **Configuration Management**: Ansible, Playbooks, Roles
+- **Containerization**: Docker, Docker Compose, Container Registry
+- **Monitoring & Observability**: Prometheus, Grafana, ELK Stack
+- **Cloud Platforms**: AWS, Azure (referenced examples)
+
+### Complete DevOps Toolchain
+The course covers the entire DevOps toolchain in a practical, hands-on manner:
+
+**Development & Version Control**
+- Git workflows and branching strategies
+- Code review and collaboration practices
+- Repository management best practices
+
+**Build & Integration**
+- Automated build processes with Jenkins
+- Pipeline as Code with Jenkinsfiles
+- Testing integration and quality gates
+
+**Infrastructure & Configuration**
+- Infrastructure provisioning with Terraform
+- Server configuration with Ansible
+- Infrastructure as Code best practices
+
+**Containerization & Deployment**
+- Application containerization with Docker
+- Multi-container orchestration
+- Container registry management
+
+**Monitoring & Operations**
+- Application and infrastructure monitoring
+- Log aggregation and analysis
+- Alerting and incident response
 
 ### Development Environment
-- Command-line tools
-- Text editors/IDEs
-- Cloud platforms (AWS/Azure references)
-- Virtual machines and containers
+- Command-line tools and scripting
+- Text editors/IDEs (VS Code, IntelliJ)
+- Virtual machines and cloud platforms
+- Container runtime environments
 
 ## 🎓 Learning Outcomes
 
-By completing this course, you will be able to:
+By completing this comprehensive course, you will be able to:
 
-### Knowledge
-- Understand DevOps principles and culture
-- Explain the DevOps lifecycle and methodologies
-- Compare DevOps with traditional IT approaches
-- Identify tools and technologies in the DevOps ecosystem
+### Knowledge & Understanding
+- Understand core DevOps principles, culture, and methodologies
+- Explain the complete DevOps lifecycle from planning to monitoring
+- Compare DevOps with traditional IT approaches and methodologies
+- Identify and evaluate tools in the DevOps ecosystem
+- Understand containerization concepts and microservices architecture
 
-### Skills
-- Use Git for version control and collaboration
-- Set up and configure Jenkins for CI/CD
-- Write and manage infrastructure as code with Terraform
-- Implement automation and monitoring solutions
-- Apply the "Three Ways" of DevOps in practice
+### Technical Skills
+- **Version Control**: Master Git workflows, branching strategies, and collaboration
+- **CI/CD**: Design and implement Jenkins pipelines for automated builds and deployments
+- **Infrastructure**: Write and manage Infrastructure as Code using Terraform
+- **Configuration Management**: Automate server configuration and application deployment with Ansible
+- **Containerization**: Build, deploy, and orchestrate Docker containers and multi-container applications
+- **Monitoring**: Implement comprehensive monitoring solutions with Prometheus, Grafana, and ELK stack
+- **Integration**: Build complete end-to-end DevOps pipelines integrating all tools
 
-### Competencies
-- Design and implement DevOps workflows
-- Troubleshoot common DevOps challenges
-- Foster DevOps culture and collaboration
-- Make data-driven decisions for continuous improvement
+### Professional Competencies
+- Design and implement complete DevOps workflows and pipelines
+- Troubleshoot complex DevOps challenges across the entire toolchain
+- Foster DevOps culture and cross-functional team collaboration
+- Make data-driven decisions for continuous improvement and optimization
+- Lead DevOps transformation initiatives in organizations
+- Implement security best practices throughout the DevOps pipeline (DevSecOps)
+
+### Practical Experience
+- Hands-on experience with industry-standard DevOps tools
+- Real-world problem-solving through the ExampleCorp case study
+- End-to-end pipeline implementation from code to production
+- Monitoring and operational excellence practices
 
 ## 🚀 Getting Started
 
@@ -260,12 +403,27 @@ cd "1. DevOps for Beginners/Module 1. Introduction to DevOPs"
 - [ ] Module 2: Version Control with Git
 - [ ] Module 3: Continuous Integration with Jenkins
 - [ ] Module 4: Infrastructure as Code with Terraform
+- [ ] Module 5: Configuration Management with Ansible
+- [ ] Module 6: Containerization with Docker
+- [ ] Module 7: Continuous Deployment and Monitoring
 
 ### 4. Additional Practice
-- Set up your own test environment
-- Create sample projects using the tools
-- Join DevOps communities and forums
-- Practice with cloud platforms
+- Set up your own test environment using the covered tools
+- Create sample projects implementing complete DevOps pipelines
+- Practice with cloud platforms (AWS, Azure, GCP)
+- Join DevOps communities and contribute to open source projects
+- Implement monitoring and logging for personal projects
+- Experiment with advanced topics like Kubernetes and service mesh
+
+### 5. Hands-on Labs
+Each module includes practical exercises:
+- **Module 1**: DevOps culture assessment and transformation planning
+- **Module 2**: Git workflow implementation and collaboration scenarios
+- **Module 3**: Jenkins pipeline creation and automation
+- **Module 4**: Infrastructure provisioning with Terraform
+- **Module 5**: Server configuration and application deployment with Ansible
+- **Module 6**: Container building, orchestration, and deployment
+- **Module 7**: Complete pipeline implementation and monitoring setup
 
 ## 🤝 Contributing
 
@@ -289,23 +447,33 @@ We welcome contributions to improve this learning resource:
 - [Git Documentation](https://git-scm.com/doc)
 - [Jenkins Documentation](https://jenkins.io/doc/)
 - [Terraform Documentation](https://terraform.io/docs/)
+- [Ansible Documentation](https://docs.ansible.com/)
+- [Docker Documentation](https://docs.docker.com/)
+- [Prometheus Documentation](https://prometheus.io/docs/)
+- [Grafana Documentation](https://grafana.com/docs/)
 
 ### Recommended Reading
 - "The Phoenix Project" by Gene Kim
 - "The DevOps Handbook" by Gene Kim, Patrick Debois, John Willis, and Jez Humble
 - "Continuous Delivery" by Jez Humble and David Farley
+- "Site Reliability Engineering" by Google
+- "The Unicorn Project" by Gene Kim
+- "Accelerate" by Nicole Forsgren, Jez Humble, and Gene Kim
 
 ### Online Communities
 - DevOps subreddit
 - Jenkins Community
 - Terraform Community
+- Ansible Community
+- Docker Community
+- CNCF (Cloud Native Computing Foundation)
 - Stack Overflow DevOps tags
 
-### Training Platforms
-- Linux Academy
-- A Cloud Guru
-- Udemy DevOps courses
-- Coursera DevOps specializations
+### Training Platforms & Certifications
+- **Cloud Platforms**: AWS DevOps Engineer, Azure DevOps Engineer, GCP DevOps Engineer
+- **Tools**: Jenkins Certified Engineer, Terraform Associate, Docker Certified Associate
+- **General DevOps**: Linux Academy, A Cloud Guru, Udemy DevOps courses
+- **University Courses**: Coursera DevOps specializations, edX DevOps programs
 
 ---
 
@@ -323,4 +491,4 @@ For questions, issues, or suggestions:
 
 **Happy Learning! 🚀**
 
-*Master DevOps principles, tools, and practices through hands-on experience and real-world applications.*
+*Master the complete DevOps toolchain from version control to production monitoring through hands-on experience and real-world applications. Transform from beginner to DevOps practitioner with industry-standard tools and practices.*
